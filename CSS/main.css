@@ -1,0 +1,120 @@
+body {
+  border: solid black thin;
+  background-color: white;
+  width: 80%;
+  max-width: 60em;
+  margin: 10 auto;
+}
+
+section{
+  margin: 80px;
+}
+
+hr.style1 {
+  border-style: dashed;
+  border-top-width: 1px;
+  border-bottom-style: double;
+  border-bottom-width: 3px;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  color: black;
+  height: 2px;
+  }
+
+h1 {
+  font-family:"Goudy old style", serif;
+  font-size: 2.5em;
+}
+
+main{
+  border-style: solid;
+  border-color: #e8e7de;
+  border-width: 40px;
+  padding: 60px 50px 30px 35px;
+  margin-right: 120px;
+}
+
+p {
+    font-family: georgia, serif;
+    letter-spacing: -0.5px;
+    line-height: 2;
+    color: #333333;
+    text-align: left;
+    padding-left: 15px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+p.style1 {
+  border: hidden medium;
+  border-left: solid crimson medium;
+   border-image: linear-gradient(to bottom, White 4%,crimson 4%,crimson 96%,white 96%);
+   border-image-slice: 1;
+  padding-left: 15px;
+  text-indent: 10%;
+
+
+}
+
+p.style2 {
+  border: hidden medium;
+  border-left: solid crimson thick;
+   border-image: linear-gradient(to bottom, White 4%,crimson 4%,crimson 96%,white 96%);
+   border-image-slice: 1;
+  padding-left: 15px;
+  text-indent: 5%;
+}
+
+p.style3 {
+  border: solid white thick;
+  border-top: hidden;
+  border-bottom: hidden;
+  border-right: hidden;
+  padding-left: 15px;
+  text-indent: 5%;
+}
+
+p.style4 {
+  border: hidden;
+  padding-left: 60px;
+  font-size: small;
+  line-height: 1;
+
+
+}
+
+
+ins {
+    color: red;
+    text-decoration: none;
+  }
+
+  .underline {
+    text-decoration: underline;
+  }
+
+  .redline {
+    color:red;
+  }
+
+  .italic {
+    font-style: italic;
+  }
+  .bold {
+    font-weight: bold;
+  }
+
+  .small-caps{
+    font-variant: small-caps;
+  }
+
+  hr.hr2 {
+    width: 5%;
+    margin-left: 60px;
+    display: inline-block;
+    text-align: left;
+  }
+
+/*Black to White, with grayscale in between
+0123456789abcdef
+*/
